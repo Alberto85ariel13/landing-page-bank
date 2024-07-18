@@ -3,23 +3,23 @@ import { BestBusinessData } from "./BestBusiness.types";
 export const dataFeaturesBusiness: BestBusinessData = [
   {
     id: 1,
-    icon: "rewards",
-    title: "Recompensas",
+    icon: "security",
+    title: "Alta Seguridad",
     description:
-      "Las mejores tarjetas de crédito ofrecen algunas combinaciones tentadoras de promociones y premios.",
+      "En NeXchange, la seguridad es nuestra máxima prioridad.",
   },
   {
     id: 2,
-    icon: "safe",
-    title: "100% Seguro",
+    icon: "cripto",
+    title: "Todas las Criptomonedas",
     description:
-      "Tomamos medidas proactivas para asegurarnos de que su información  y sus transacciones estén seguras.",
+      "Compramos todo tipo de Criptomanedas independientemente de la Blockchain.",
   },
   {
     id: 3,
-    icon: "send",
-    title: "Envíos gratis",
+    icon: "transparent",
+    title: "Transparencia",
     description:
-      "Una tarjeta de crédito con transferencia de saldo puede ahorrarle mucho dinero en intereses.",
+      "La transparencia es uno de los pilares fundamentales de nuestro servicio.",
   },
 ];

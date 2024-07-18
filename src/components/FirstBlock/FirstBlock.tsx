@@ -11,10 +11,10 @@ export function FirstBlock() {
     return (
         <div className="relative p-4 md:py-30 -z-50">
             <BackgroundRadialRight />
-            <div className="grid max-w-5xl mx-auto md:grid-cols-2 mt-[200px]">
+            <div className="grid max-w-5xl mx-auto md:grid-cols-2 mt-[140px]">
                 <div className="w-full">
                     <Reveal>
-                        <h1 className="text-4xl font-semibold">
+                        <h1 className="text-4xl font-semibold pb-1">
                             Compra y vende tus cripto
                             <span className="block degradedGreen bg-greenLight">
                                 al mejor precio

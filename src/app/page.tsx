@@ -9,16 +9,17 @@ import { PaymentsMethods } from "@/components/PaymentsMethods";
 import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
+
   return (
     <>
       <Header />
       <FirstBlock />
-      {/* <BestBusiness />
+      <BestBusiness />
       <ChooseYourCards />
       <ControlBilling />
       <Testimonials />
       <PaymentsMethods />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }

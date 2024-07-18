@@ -13,14 +13,22 @@ export function Header() {
     const [isDarkMode, setDarkMode] = useState(false);
 
     const toggleDarkMode = (checked: boolean) => {
-      setDarkMode(checked);
+        if(checked) {
+            document.documentElement.classList.remove('light');
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+        }
+    setDarkMode(checked);
     };
-  
     return (
-        <MotionTransition>
-            <nav className="flex flex-wrap items-center xl:justify-start justify-between w-full shadow-sm fixed left-0 top-0 bg-white z-50 bg-opacity-50 backdrop-blur-lg">
+            <nav className={`flex flex-wrap items-center xl:justify-start justify-between w-full shadow-sm fixed left-0 top-0 ${isDarkMode? 'bg-black': 'bg-white'} z-50 bg-opacity-50 backdrop-blur-lg`}>
                 <Link href="/" className="flex items-center">
-                    <Image src="/assets/Nex negro.png" width="180" height="10" alt="Logo Nex"/>
+                    { isDarkMode? 
+                        <Image className="ml-6 mr-6 mt-4 mb-4" src="/assets/logo.png" width="140" height="10" alt="Logo Nex"/>:
+                        <Image src="/assets/Nex negro.png" width="180" height="10" alt="Logo Nex"/>
+                    }
                 </Link>
                 <div className="text-3xl mr-6 flex xl:hidden">
                     <RiMenu3Line className="cursor-pointer" onClick={() => setOpenMobileMenu(!openMobileMenu)} />
@@ -31,11 +39,11 @@ export function Header() {
                         size={30}
                     />
                 </div>
-                <div className={`${openMobileMenu ? 'block' : 'hidden'} w-full xl:block xl:w-auto`}>
+                <div className={`hidden w-full xl:block xl:w-auto`}>
                     <div className="hidden xl:flex flex-col p-4 mt-4 md:p-0 sm:flex-row md:space-x-3 md:mt-0 md:border-0">
                         {dataHeader.map(({ id, name, idLink }) => (
                             <div key={id} className="px-4 transition-all duration-500 ease-in-out">
-                                <Link href={idLink} className="text-lg hover:text-secondary [text-shadow:_2px_3px_2px_rgb(0_0_0_/_20%)]">{name}</Link>
+                                <Link href={idLink} className={`text-lg hover:text-secondary  ${isDarkMode? '[text-shadow:_2px_3px_2px_rgb(255_255_255_/_20%)]': '[text-shadow:_2px_3px_2px_rgb(0_0_0_/_20%)]'}`}>{name}</Link>
                             </div>
                         ))}
                     </div>
@@ -46,7 +54,13 @@ export function Header() {
                     onChange={toggleDarkMode}
                     size={30}
                 />
+                <div className={`transition-width-height block fixed top-16 w-auto h-44 ${openMobileMenu? 'right-8' : '-right-56'}  ${isDarkMode? 'bg-black border-gray-900': 'bg-white border-gray-50'} z-50 bg-opacity-90 backdrop-blur-lg rounded-md border-solid border-2  shadow-lg`}>
+                    {dataHeader.map(({ id, name, idLink }) => (
+                        <div key={id} className="px-4 transition-all duration-500 ease-in-out">
+                            <Link onClick={() => setOpenMobileMenu(false)} href={idLink} className={`text-lg hover:text-secondary  ${isDarkMode? '[text-shadow:_2px_3px_2px_rgb(255_255_255_/_20%)]': '[text-shadow:_2px_3px_2px_rgb(0_0_0_/_20%)]'}`}>{name}</Link>
+                        </div>
+                    ))}
+                </div>
             </nav>
-        </MotionTransition>
     )
 }
