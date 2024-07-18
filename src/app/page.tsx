@@ -13,13 +13,12 @@ export default function Home() {
     <>
       <Header />
       <FirstBlock />
-      <CounterData />
-      <BestBusiness />
+      {/* <BestBusiness />
       <ChooseYourCards />
       <ControlBilling />
       <Testimonials />
       <PaymentsMethods />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
