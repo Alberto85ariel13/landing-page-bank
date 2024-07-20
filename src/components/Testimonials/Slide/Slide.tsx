@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { dataTestimonials } from '../Testimonials.data'
 import { Reveal } from '@/components/Reveal'
-import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper/modules'
+import { Autoplay, Keyboard, Mousewheel, Navigation, Pagination } from 'swiper/modules'
 
 export function Slide() {
     return (
@@ -23,7 +23,7 @@ export function Slide() {
             pagination={{
                 clickable: true
             }}
-            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+            modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
             className="h-[250px] w-full md:max-w-5xl"
         >
             {dataTestimonials.map(({ id, name, work, testimonial, image }) => (

@@ -1,6 +1,4 @@
 "use client"
-
-import Link from "next/link"
 import { BackgroundRadialLeft } from "../BackgroundRadialLeft"
 import { Reveal } from "../Reveal"
 import { dataFeaturesBusiness } from "./BestBusiness.data"

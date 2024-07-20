@@ -30,9 +30,11 @@ export function FirstBlock() {
                         <span className="degradedGreen bg-greenLight">3.</span> Listo ¡Ya estás listo para comprar o vender tus cripto con nosotros!</p>
                     </Reveal>
                     <Reveal>
-                        <div className="my-8">
-                            <Link href="#clients" className="px-4 py-3 rounded-md bg-greenRadial">Empieza ahora</Link>
-                        </div>
+                        <a href="https://c2c.binance.com/es/advertiserDetail?advertiserNo=s19e99bd11cf83e708678156841c1439d" target="_blank">
+                            <div className="my-8">
+                                <div className="px-4 py-3 rounded-md bg-greenRadial">Empieza ahora</div>
+                            </div>
+                        </a>
                     </Reveal>
                 </div>
                 <MotionTransition className="flex items-center justify-center">

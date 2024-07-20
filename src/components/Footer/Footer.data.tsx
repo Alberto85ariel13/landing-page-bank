@@ -85,21 +85,16 @@ export const footerSocialNetworks = [
   {
     id: 1,
     icon: <RiInstagramLine />,
-    link: "#"
+    link: "https://www.nex-change.com/www.instagram.com/nexchange.uy"
   },
   {
     id: 2,
     icon: <RiFacebookCircleFill />,
-    link: "#"
+    link: "https://www.facebook.com/profile.php?id=100084070907395"
   },
   {
     id: 3,
-    icon: <RiTwitterXFill />,
-    link: "#"
-  },
-  {
-    id: 4,
     icon: <RiLinkedinBoxFill />,
-    link: "#"
+    link: "https://www.nex-change.com/www.linkedin.com/company/nexchangeuy"
   },
 ];
