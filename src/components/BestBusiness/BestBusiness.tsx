@@ -22,7 +22,7 @@ export function BestBusiness() {
                     </Reveal>
                     <Reveal>
                         <a href="https://c2c.binance.com/es/advertiserDetail?advertiserNo=s19e99bd11cf83e708678156841c1439d" target="_blank">
-                            <div className="my-4 text-center binance-box cursor-pointer">
+                            <div className="my-4 text-center w-[350px] binance-box cursor-pointer md:w-[450px]">
                                 Para operar con nosotros a través de binance hacé click acá
                                 <Image src={`/assets/binance.png`} alt='binance' width={400} height={200} />
                                 Desde donde podes operar con nosotros, ver los comentarios de nuestros clientes y revisar nuestras estadísticas.
