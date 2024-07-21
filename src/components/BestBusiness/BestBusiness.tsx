@@ -34,7 +34,7 @@ export function BestBusiness() {
                 <div className="grid items-center py-5 md:p-8">
                     {dataFeaturesBusiness.map(({ id, icon, title, description }) => (
                         <Reveal key={id}>
-                            <div className="grid grid-flow-col gap-3 px-4 py-2 rounded-3xl group bg-greenRadial box-feature">
+                            <div className="grid grid-flow-col gap-3 px-4 py-2 mb-4 rounded-3xl group bg-greenRadial box-feature">
                                 <Image src={`/assets/${icon}.png`} alt={title} width={40} height={40} />
                                 <div>
                                     <h4 className="font-bold">{title}</h4>

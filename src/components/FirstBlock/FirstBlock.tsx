@@ -9,7 +9,7 @@ import { CounterData } from "../CounterData"
 
 export function FirstBlock() {
     return (
-        <div className="relative p-4 md:py-30 -z-50">
+        <div className="relative p-4 md:py-30">
             <BackgroundRadialRight />
             <div className="grid max-w-5xl mx-auto md:grid-cols-2 mt-[140px]">
                 <div className="w-full">
@@ -30,11 +30,11 @@ export function FirstBlock() {
                         <span className="degradedGreen bg-greenLight">3.</span> Listo ¡Ya estás listo para comprar o vender tus cripto con nosotros!</p>
                     </Reveal>
                     <Reveal>
-                        <a href="https://c2c.binance.com/es/advertiserDetail?advertiserNo=s19e99bd11cf83e708678156841c1439d" target="_blank">
                             <div className="my-8">
-                                <div className="px-4 py-3 rounded-md bg-greenRadial">Empieza ahora</div>
+                            <a href="https://api.whatsapp.com/send?phone=598094221899&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n" target="_blank">
+                                <div className="px-4 py-3 rounded-md bg-greenRadial cursor-pointer">Empieza ahora</div>
+                            </a>
                             </div>
-                        </a>
                     </Reveal>
                 </div>
                 <MotionTransition className="flex items-center justify-center">
