@@ -8,7 +8,7 @@ import { BackgroundRadialLeft } from "../BackgroundRadialLeft"
 export function HowMake() {
     return (
         <div className="relative px-6 py-20 md:py-40" id="howMake">
-            <BackgroundRadialLeft />
+            {/* <BackgroundRadialLeft /> */}
             <div className="flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly">
                 <MotionTransition className="flex-1 p-6 md:p-8">
                     <Image src="/assets/pngwing.com.png" alt="Control Business" width="380" height={411} className="w-full h-auto" />

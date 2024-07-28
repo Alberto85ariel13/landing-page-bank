@@ -7,7 +7,7 @@ import { dataService } from "./Services.data";
 export function Services() {
     return (
         <div className="relative px-6 py-20 md:py-40" id="services">
-            <BackgroundRadialRight />
+            {/* <BackgroundRadialRight /> */}
             <div className="w-full flex justify-center">
                 <h2 className="text-5xl font-semibold pb-2 text-center">
                     <span className="block degradedGreen bg-greenLight">Nuestros Servicios</span>

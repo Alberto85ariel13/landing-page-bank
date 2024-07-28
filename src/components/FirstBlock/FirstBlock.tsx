@@ -31,9 +31,11 @@ export function FirstBlock() {
                     </Reveal>
                     <Reveal>
                             <div className="my-8">
+                                 {/* <Link href="?modal=true"> */}
                             <a href="https://api.whatsapp.com/send?phone=598094221899&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n" target="_blank">
-                                <div className="px-4 py-3 rounded-md bg-greenRadial cursor-pointer">Empieza ahora</div>
+                                    <div className="px-4 py-3 rounded-md bg-greenRadial cursor-pointer">Empieza ahora</div>
                             </a>
+                                {/* </Link> */}
                             </div>
                     </Reveal>
                 </div>
