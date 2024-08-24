@@ -20,9 +20,8 @@ export function HowMake() {
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10 text-justify">De una manera segura, rápida, eficiente y confiable.<br />
-                            <span className="font-semibold">- Ventajas de tu producto que otros no tienen?</span><br />
-Más de 600 operaciones realizadas, 100% de reacciones positivas.<br/> Brindamos seguridad, transparencia y confianza, todo lo necesario para que realices tus operaciones con tranquilidad.</p>
+                        <p className="max-w-md mt-10 text-justify">Proporcionamos un servicio personalizado, atendido por los propios dueños de la empresa, enfocados en satisfacer las necesidades específicas de cada cliente. Nuestra atención directa y compromiso nos permite brindar soluciones rápidas y eficientes.
+                        </p>
                     </Reveal>
                 </div>
             </div>

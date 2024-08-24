@@ -25,8 +25,8 @@ export function FirstBlock() {
                     <Reveal>
                         <p className="max-w-md mt-10">Registrate con nosotros en dos simples pasos:</p>
                         <p className="max-w-md mt-2 ml-2">
-                        <span className="degradedGreen bg-greenLight">1.</span> Envía una selfie sosteniendo tu cédula<br/>
-                        <span className="degradedGreen bg-greenLight">2.</span> Uno de nuestros asesores se comunicará para realizar una breve videollamada<br/>
+                        <span className="degradedGreen bg-greenLight">1.</span> Completa un formulario cifrado.<br/>
+                        <span className="degradedGreen bg-greenLight">2.</span> Realiza una videollamada con uno de nuestros asesores.<br/>
                         <span className="degradedGreen bg-greenLight">3.</span> Listo ¡Ya estás listo para comprar o vender tus cripto con nosotros!</p>
                     </Reveal>
                     <Reveal>
@@ -39,10 +39,17 @@ export function FirstBlock() {
                             </div>
                     </Reveal>
                 </div>
-                <MotionTransition className="flex items-center justify-center">
-                    <Image src="/assets/pngwing.com (3).png" alt="Card" width={450} height={450} className="h-auto w-74 md:w-full" />
-                </MotionTransition>
-            </div>
+                <div>
+                    <MotionTransition className="flex items-center justify-center">
+                        <Image src="/assets/pngwing.com (3).png" alt="Card" width={450} height={450} className="h-auto w-74 md:w-full" />
+                    </MotionTransition>
+                </div>
+                <div className="col-span-2 w-auto">
+                    <span className="degradedGreen bg-greenLight font-semibold text-2xl">Comerciantes PRO en Binance P2P:</span><br/>
+                    <p className="text-justify">Contamos con la calificación de comerciantes PRO en Binance P2P, un programa exclusivo para exchanges cripto profesionales que garantiza confianza y seguridad a millones de usuarios en todo el mundo. Obtener esta calificación requiere un alto nivel de reputación y experiencia en la plataforma, lo que nos posiciona como líderes en el mercado.</p>
+
+                    </div>
+                </div>
             <CounterData />
         </div>
     )

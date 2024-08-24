@@ -37,16 +37,13 @@ export function Header() {
             scene.add(ambientLight);
 
             const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-            directionalLight.position.set(3, 3, 3); // Ajusta la posición de la luz
+            directionalLight.position.set(3, 3, 3);
             directionalLight.target = cube;
             scene.add(directionalLight);
-
-            // const directionalLightHelper = new THREE.DirectionalLightHelper(directionalLight, 0.5, 0xff0000);
-            // scene.add(directionalLightHelper);            
-            
+          
             const animate = () => {
                 if(cube) {
-                    cube.rotation.y += 0.01;
+                    cube.rotation.y += 0.005;
                 }
                 renderer.render(scene, camera);
                 requestAnimationFrame(animate);
@@ -93,7 +90,7 @@ export function Header() {
                     </div>
                 </div>
                 <DarkModeSwitch
-                    className=" hidden xl:block ml-36"
+                    className=" hidden xl:block ml-36 fixed top-4 right-4"
                     checked={isDarkMode}
                     onChange={toggleDarkMode}
                     size={30}

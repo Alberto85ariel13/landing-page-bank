@@ -14,12 +14,6 @@ export function Testimonials() {
                         Qué dicen los clientes de nosotros
                     </h2>
                 </Reveal>
-                <Reveal>
-                    <div className="self-center">
-                        <p className="text-justify">Cerca de 300 clientes.<br/> Más de 650 operaciones.<br/>
-                        Comerciantes verificados p2p en binance.<br/> 250 valoraciones positivas.</p>
-                    </div>
-                </Reveal>
             </div>
 
             <Slide />

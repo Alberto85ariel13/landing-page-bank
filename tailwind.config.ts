@@ -24,7 +24,7 @@ const config: Config = {
         greenRadial:
           "linear-gradient(90deg, #23A745 0%, rgba(34, 167, 69, 0.6) 95.83%)",
         greenLight:
-          "linear-gradient(90deg, #23A745 0%, rgba(255, 255, 255, 0.86) 95.83% )",
+          "linear-gradient(90deg, #23A745 0%, rgba(0, 0, 0, 0.86) 95.83% )",
       },
       boxShadow: {
         dark: "0px 20px 100px -10px rgba(66, 71, 91, 0.1)",

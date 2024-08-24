@@ -32,7 +32,7 @@ body {
 .degradedGreen {
   background-clip: text;
   -webkit-background-clip: text;
-  color: rgba(34, 167, 69, 0.5);
+  color: rgba(116, 252, 152, 0.5);
   padding: 5px 0;
 }
 
