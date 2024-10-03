@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,6 +21,8 @@ body {
 .dark body {
   @apply bg-black text-white;
 }
+
+
 /* body {
   background-color: #FFFFFF;
   color: #000000;
@@ -74,9 +77,10 @@ body {
 .dark .binance-box {
   box-shadow: rgba(116, 238, 134, 0.25) 0px 50px 100px -20px, rgba(239, 241, 239, 0.862) 0px 30px 60px -30px, rgba(178, 248, 182, 0.35) 0px -2px 6px 0px inset;
 }
+
 .box-feature {
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-}  
+}
 
 .float-button {
   border-radius: 24px;

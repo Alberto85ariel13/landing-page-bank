@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={popinsFont.className}>
         {children}
-        <Modal/>
+        <Modal />
       </body>
     </html>
   )
