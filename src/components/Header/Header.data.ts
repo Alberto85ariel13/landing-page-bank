@@ -1,7 +1,7 @@
 export const dataHeader = [
   {
     id: 1,
-    name: "Quienes somos",
+    name: "¿Quiénes somos?",
     idLink: "#features",
   },
   {
@@ -11,12 +11,12 @@ export const dataHeader = [
   },
   {
     id: 3,
-    name: "Como lo hacemos?",
+    name: "¿Cómo lo hacemos?",
     idLink: "#howMake",
   },
   {
     id: 4,
-    name: "Que hacemos?",
+    name: "¿Qué hacemos?",
     idLink: "#whatMake",
   },
   {

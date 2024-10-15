@@ -17,10 +17,5 @@ export const dataCounter = [
     endNumber: 100,
     text: "% Calificaciones Positivas",
   },
-  {
-    id: 4,
-    startNumber: 100000,
-    endNumber: 250000,
-    text: "USD operados",
-  },
+
 ];

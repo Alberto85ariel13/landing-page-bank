@@ -19,7 +19,7 @@ export function Header() {
                 containerRef.current.removeChild(containerRef.current.firstChild);
             }
             const scene = new THREE.Scene();
-            const camera = new THREE.PerspectiveCamera(75, 185 / 80, 0.1, 1000);
+            const camera = new THREE.PerspectiveCamera(75, 185 / 80, 0.1, 2000);
             const renderer = new THREE.WebGLRenderer();
             renderer.setSize(185, 80);
             renderer.setClearColor(0xfff, 0);
@@ -40,11 +40,11 @@ export function Header() {
             directionalLight.position.set(3, 3, 3);
             directionalLight.target = cube;
             scene.add(directionalLight);
-
             const animate = () => {
                 if (cube) {
-                    cube.rotation.y += 0.005;
+                    cube.rotation.y += 0.000;
                 }
+
                 renderer.render(scene, camera);
                 requestAnimationFrame(animate);
             };

@@ -6,7 +6,7 @@ import { Modal } from '@/components/Modal'
 const popinsFont = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'NeXchange 💸 ',
+  title: 'Nexchange 💸 ',
   description: 'Compramos tus criptos',
 }
 

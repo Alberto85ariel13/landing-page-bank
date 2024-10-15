@@ -16,7 +16,7 @@ export function HowMake() {
                 <div className="flex-1 p-6 md:p-8">
                     <Reveal>
                         <h2 className="text-5xl font-semibold block degradedGreen bg-greenLight">
-                            Como lo hacemos?
+                            ¿Cómo lo hacemos?
                         </h2>
                     </Reveal>
                     <Reveal>
