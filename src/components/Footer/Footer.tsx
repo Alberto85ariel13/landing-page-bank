@@ -12,7 +12,7 @@ export function Footer() {
             <div className="items-center justify-between md:flex">
                 <div className="my-3">
                     <Reveal>
-                        NeXchange SAS All Right Reserved
+                        Nexchange SAS All Right Reserved
                     </Reveal>
                 </div>
                 <div className="flex gap-5">

@@ -11,8 +11,8 @@ export function BestBusiness() {
                 <div>
                     <Reveal>
                         <h2 className="text-5xl font-semibold pb-2">
-                            <span className="block degradedGreen bg-greenLight">Quienes somos</span>
-                            NeXchange
+                            <span className="block degradedGreen bg-greenLight">Quiénes somos</span>
+                            Nexchange
                         </h2>
                     </Reveal>
                     <Reveal>

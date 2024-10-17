@@ -12,26 +12,25 @@ export function Advantages() {
             <div className="flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly">
                 <Reveal>
                     <div className="max-w-sm mt-24">
-                    <MotionTransition className="flex-1 p-6 md:p-8">
-                        <Image src="/assets/pngwing.com (9).png" alt="Control Business" width="380" height={411} className="w-full h-auto" />
-                    </MotionTransition>
-                    <div className="px-6 py-5 mt-16 rounded-3xl group bg-greenRadial box-feature">
-                        <h4 className="font-bold">Reconocimiento como comerciantes PRO en Binance.</h4><p>
-                        Todos nuestros clientes nos vuelven a elegir, reflejando la calidad y confianza de nuestros servicios.</p>
-                    </div>
+                        <MotionTransition className="flex-1 p-6 md:p-8">
+                            <Image src="/assets/pngwing.com (9).png" alt="Control Business" width="380" height={411} className="w-full h-auto" />
+                        </MotionTransition>
+                        <div className="px-6 py-5 mt-16 rounded-3xl group bg-greenRadial box-feature">
+                            <h4 className="font-bold">Reconocimiento como comerciantes PRO en Binance.</h4><p>
+                                Todos nuestros clientes nos vuelven a elegir, reflejando la calidad y confianza de nuestros servicios.</p>
+                        </div>
                     </div>
                 </Reveal>
                 <div className="flex-1 p-6 md:p-8">
                     <Reveal>
                         <div className="flex">
-                        <h2 className="text-4xl font-semibold block degradedGreen bg-greenLight">
-                            Ventajas de Ne
-                        </h2>
-                        <span className="text-5xl  -rotate-6">X</span>
-                        <h2 className="text-4xl font-semibold block degradedGreen bg-greenLight">
-                            change
-                        </h2>
-                        </div>    
+                            <h2 className="text-4xl font-semibold block degradedGreen bg-greenLight">
+                                Ventajas de Nex
+                            </h2>
+                            <h2 className="text-4xl font-semibold block degradedGreen bg-greenLight">
+                                change
+                            </h2>
+                        </div>
                     </Reveal>
                     <Reveal>
                         <div className="grid items-center py-5 md:p-8">
