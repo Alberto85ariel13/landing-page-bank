@@ -46,7 +46,7 @@ export function FirstBlock() {
                 </div>
                 <div className="col-span-2 w-auto">
                     <span className="degradedGreen bg-greenLight font-semibold text-2xl">Comerciantes PRO en Binance P2P:</span><br />
-                    <p className="text-justify">Contamos con la calificación de comerciantes PRO en Binance P2P, un programa exclusivo para exchanges cripto profesionales que garantiza confianza y seguridad a millones de usuarios en todo el mundo. Obtener esta calificación requiere un alto nivel de reputación y experiencia en la plataforma, lo que nos posiciona como líderes en el mercado.</p>
+                    <p className="text-justify">Contamos con la calificación de comerciantes PRO en Binance P2P, un programa exclusivo para exchanges cripto profesionales que garantiza confianza y seguridad a millones de usuarios. Obtener esta calificación requiere un alto nivel de reputación y experiencia en la plataforma, lo que nos posiciona como líderes en el mercado.</p>
 
                 </div>
             </div>

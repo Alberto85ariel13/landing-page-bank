@@ -18,7 +18,7 @@ export function WhatMake() {
                     </Reveal>
                     <Reveal>
                         <p className="max-w-md mt-6 text-justify">
-                            Atendemos personalmente las necesidades de nuestros clientes, ya sea para enviar dinero de un lugar a otro, comprar cripto para inversiones, o resolver consultas sobre el mundo cripto. Nos aseguramos de ofrecer un servicio personalizado y adaptado a cada cliente.                        </p>
+                            Atendemos personalmente las necesidades de nuestros clientes,tanto comprar cripto para inversiones como resolver consultas sobre el mundo cripto. Nos aseguramos de ofrecer un servicio personalizado y adaptado a cada cliente.                        </p>
                     </Reveal>
                 </div>
                 <MotionTransition className="flex-1 p-6 md:p-8">

@@ -16,7 +16,7 @@ export function BestBusiness() {
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10 text-justify">Somos una empresa dedicada a ofrecer liquidez y soluciones en el mundo cripto, con servicios de compras y ventas, cobros y pagos internacionales. Nuestra base está en Uruguay, pero operamos en Argentina, Colombia, Brasil, USA, Europa, México y más.</p>
+                        <p className="max-w-md mt-10 text-justify">Somos una empresa dedicada a ofrecer liquidez y soluciones en el mundo cripto, con servicios de compras y ventas.</p>
                     </Reveal>
                     <Reveal>
                         <a href="https://p2p.binance.com/es/advertiserDetail?advertiserNo=s528c43ce52e733d2859d6a3ae5131f7d" target="_blank">

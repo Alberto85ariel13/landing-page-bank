@@ -20,6 +20,6 @@ export const dataFeaturesBusiness: AdvantagesData = [
     icon: "transparent",
     title: "Confianza:",
     description:
-      "Más de dos años operando como empresa en Uruguay, con operaciones en varios países de Latam, USA y Europa. Trabajamos con las principales empresas del sector.",
+      "Más de dos años operando como empresa en Uruguay. Trabajamos con las principales empresas del sector.",
   },
 ];

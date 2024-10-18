@@ -7,7 +7,7 @@ import { BackgroundRadialLeft } from "../BackgroundRadialLeft"
 
 export function HowMake() {
     return (
-        <div className="relative px-6 py-20 md:py-40" id="howMake">
+        <div className="relative px-6 py-40 md:py-40" id="howMake">
             {/* <BackgroundRadialLeft /> */}
             <div className="flex flex-col-reverse max-w-5xl mx-auto md:flex-row place-content-evenly">
                 <MotionTransition className="flex-1 p-6 md:p-8">
