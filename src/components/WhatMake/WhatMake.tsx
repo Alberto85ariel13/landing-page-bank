@@ -4,6 +4,7 @@ import Image from "next/image"
 import { MotionTransition } from "../MotionTransition"
 import { Reveal } from "../Reveal"
 import { BackgroundRadialLeft } from "../BackgroundRadialLeft"
+import Atropos from "atropos/react"
 
 export function WhatMake() {
     return (
@@ -22,7 +23,9 @@ export function WhatMake() {
                     </Reveal>
                 </div>
                 <MotionTransition className="flex-1 p-6 md:p-8">
-                    <Image src="/assets/pngwing.com (7).png" alt="Control Business" width="380" height={411} className="w-full h-auto" />
+                    <Atropos shadow={false} highlight={false}>
+                        <Image src="/assets/pngwing.com (7).png" alt="Control Business" width="380" height={411} className="w-full h-auto" />
+                    </Atropos>
                 </MotionTransition>
             </div>
         </div>

@@ -5,6 +5,7 @@ import { MotionTransition } from "../MotionTransition"
 import Image from "next/image"
 import { Reveal } from "../Reveal"
 import { CounterData } from "../CounterData"
+import Atropos from "atropos/react"
 
 
 export function FirstBlock() {
@@ -41,7 +42,9 @@ export function FirstBlock() {
                 </div>
                 <div>
                     <MotionTransition className="flex items-center justify-center">
-                        <Image src="/assets/pngwing.com (3).png" alt="Card" width={450} height={450} className="h-auto w-74 md:w-full" />
+                        <Atropos shadow={false} highlight={false}>
+                            <Image src="/assets/pngwing.com (3).png" alt="Card" width={450} height={450} className="h-auto w-74 md:w-full" />
+                        </Atropos>
                     </MotionTransition>
                 </div>
                 <div className="col-span-2 w-auto">

@@ -11,6 +11,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { WhatMake } from "@/components/WhatMake";
 import { Advantages } from "@/components/Advantages";
 import { FloatingButton } from "@/components/FloatingButton/FloatingButton";
+import Head from "next/head";
 
 export default function Home() {
   useEffect(() => {

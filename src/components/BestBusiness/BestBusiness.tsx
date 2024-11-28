@@ -2,6 +2,7 @@
 import { Reveal } from "../Reveal"
 import { dataFeaturesBusiness } from "./BestBusiness.data"
 import Image from "next/image"
+import Atropos from 'atropos/react';
 
 export function BestBusiness() {
     return (
@@ -16,17 +17,17 @@ export function BestBusiness() {
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10 text-justify">Somos una empresa dedicada a ofrecer liquidez y soluciones en el mundo cripto, con servicios de compras y ventas.</p>
+                        <p className="max-w-md mt-10 mb-4 text-justify">Somos una empresa dedicada a ofrecer liquidez y soluciones en el mundo cripto, con servicios de compras y ventas.</p>
                     </Reveal>
-                    <Reveal>
+                    <Atropos className=" max-w-[350px] md:max-w-[450px]">
                         <a href="https://p2p.binance.com/es/advertiserDetail?advertiserNo=s528c43ce52e733d2859d6a3ae5131f7d" target="_blank">
-                            <div className="my-4 text-center w-[350px] binance-box cursor-pointer md:w-[450px]">
+                            <div className="text-center w-[350px] binance-box cursor-pointer md:w-[450px]">
                                 Para operar con nosotros a través de binance hacé click acá
                                 <Image src={`/assets/binance.png`} alt='binance' width={400} height={200} />
                                 Desde donde podes operar con nosotros, ver los comentarios de nuestros clientes y revisar nuestras estadísticas.
                             </div>
                         </a>
-                    </Reveal>
+                    </Atropos>
                 </div>
 
                 <div className="grid items-center py-5 md:p-8">
